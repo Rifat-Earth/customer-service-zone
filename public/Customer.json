@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User is unable to login with correct credentials.",
+    "customerDetails": {
+      "name": "Rahim Uddin",
+      "email": "rahim@example.com",
+      "phone": "01710000001"
+    },
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01T10:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failed",
+    "description": "Transaction failed but money was deducted.",
+    "customerDetails": {
+      "name": "Sadia Khan",
+      "email": "sadia@example.com",
+      "phone": "01710000002"
+    },
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-01T11:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Password Reset Not Working",
+    "description": "Reset link is not being sent to the registered email.",
+    "customerDetails": {
+      "name": "Tanvir Hasan",
+      "email": "tanvir@example.com",
+      "phone": "01710000003"
+    },
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-01T12:10:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Website Loading Slow",
+    "description": "The dashboard page is taking too long to load.",
+    "customerDetails": {
+      "name": "Nusrat Jahan",
+      "email": "nusrat@example.com",
+      "phone": "01710000004"
+    },
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-01T13:05:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Order Not Delivered",
+    "description": "Customer did not receive the ordered product.",
+    "customerDetails": {
+      "name": "Arif Hossain",
+      "email": "arif@example.com",
+      "phone": "01710000005"
+    },
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01T14:00:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Account Suspended",
+    "description": "Account was suspended without notification.",
+    "customerDetails": {
+      "name": "Mim Akter",
+      "email": "mim@example.com",
+      "phone": "01710000006"
+    },
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-01T15:20:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Incorrect Billing Amount",
+    "description": "Customer charged more than the subscription fee.",
+    "customerDetails": {
+      "name": "Hasan Mahmud",
+      "email": "hasan@example.com",
+      "phone": "01710000007"
+    },
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01T16:45:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Feature Request",
+    "description": "Request to add dark mode to the platform.",
+    "customerDetails": {
+      "name": "Sumaiya Rahman",
+      "email": "sumaiya@example.com",
+      "phone": "01710000008"
+    },
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-01T17:30:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Profile Update Error",
+    "description": "User cannot update profile information.",
+    "customerDetails": {
+      "name": "Imran Ali",
+      "email": "imran@example.com",
+      "phone": "01710000009"
+    },
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-01T18:10:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Notification Not Received",
+    "description": "Push notifications are not working properly.",
+    "customerDetails": {
+      "name": "Farzana Yasmin",
+      "email": "farzana@example.com",
+      "phone": "01710000010"
+    },
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-01T19:00:00Z"
+  },
+  {
+    "id": 11,
+    "title": "App Crash on Startup",
+    "description": "Mobile app crashes immediately after opening.",
+    "customerDetails": {
+      "name": "Rafiul Islam",
+      "email": "rafiul@example.com",
+      "phone": "01710000011"
+    },
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-02T08:15:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Refund Request",
+    "description": "Customer requesting refund for canceled service.",
+    "customerDetails": {
+      "name": "Jannat Akter",
+      "email": "jannat@example.com",
+      "phone": "01710000012"
+    },
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-03-02T09:40:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Email Verification Issue",
+    "description": "Verification email link expired immediately.",
+    "customerDetails": {
+      "name": "Sabbir Ahmed",
+      "email": "sabbir@example.com",
+      "phone": "01710000013"
+    },
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02T10:25:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Search Function Not Working",
+    "description": "Search bar returns no results even for valid keywords.",
+    "customerDetails": {
+      "name": "Tania Sultana",
+      "email": "tania@example.com",
+      "phone": "01710000014"
+    },
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T11:50:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Data Sync Problem",
+    "description": "User data not syncing between devices.",
+    "customerDetails": {
+      "name": "Mehedi Hasan",
+      "email": "mehedi@example.com",
+      "phone": "01710000015"
+    },
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-02T12:30:00Z"
+  }
+]

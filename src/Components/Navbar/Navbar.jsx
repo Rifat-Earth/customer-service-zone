@@ -19,9 +19,9 @@ const Navbar = () => {
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a className="text-xl">CS — Ticket System</a>
+              <a target='_blank' href='https/:cs.com'> <h1 className="text-xl  md:ml-4 font-bold whitespace-nowrap">CS — Ticket System</h1></a> 
             </div>
-            <div className="navbar-end hidden lg:flex">
+            <div className="navbar hidden lg:flex gap-4  justify-end">
                 <ul className="menu menu-horizontal px-1">
                         <li><a>Home</a></li> 
                         <li><a>FAQ</a></li>
@@ -29,11 +29,14 @@ const Navbar = () => {
                         <li><a>Download</a></li>
                         <li><a>Blog</a></li> 
                         <li><a>Contact</a></li>
+                         <a className="btn bg-linear-to-bl from-[#632EE3] to-[#9F62F2] text-white">
+                    <img className='w-4 h-4' src="https://img.icons8.com/?size=100&id=62888&format=png&color=FFFFFF" alt="not found" />
+                    New Ticket</a>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn "><img className='w-4 h-4' src="https://img.icons8.com/?size=100&id=K0l4dwcsMaJa&format=png&color=000000" alt="not found" />New Ticket</a>
-            </div>
+            
+               
+            
         </div>
     );
 };
