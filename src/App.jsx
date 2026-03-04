@@ -1,8 +1,14 @@
 
+import { Suspense } from 'react'
 import './App.css'
 import Banner from './Components/Banner/Banner'
+import AllCard from './Components/Cards/AllCard/AllCard'
 import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Navbar/Navbar'
+
+
+const customerPromise = fetch("../Customer.json")
+.then(res=>res.json())
 
 function App() {
 
@@ -11,7 +17,9 @@ function App() {
     <>
      <Navbar></Navbar>
      <Banner></Banner>
-     <h1 className='text-2xl'>Main section......</h1>
+     <Suspense fallback="<p>card is Loading...</p>">
+      <AllCard customerPromise ={customerPromise} ></AllCard>
+     </Suspense>
      <Footer></Footer>
     </>
   )
