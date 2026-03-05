@@ -3,7 +3,7 @@ import SingleCard from '../SingleCard/SingleCard';
 import TaskStatus from '../../TaskStatus/TaskStatus';
 
 
-const AllCard = ({ customerPromise,handleCustomer,status }) => {
+const AllCard = ({ customerPromise,handleCustomer,status,handleCompleteBtn ,resolved}) => {
 
     const customerData = use(customerPromise)
    
@@ -19,7 +19,7 @@ const AllCard = ({ customerPromise,handleCustomer,status }) => {
                     }
                 </div>
             </div>
-            <TaskStatus status={status} key={status.id}></TaskStatus>
+            <TaskStatus resolved={resolved} handleCompleteBtn={handleCompleteBtn} status={status} key={status.id}></TaskStatus>
             
         </div>
     );
