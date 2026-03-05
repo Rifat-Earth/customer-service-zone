@@ -7,7 +7,7 @@ const SingleCard = ({ customer, handleCustomer}) => {
             <div className="card-body">
                 <div className='flex justify-between'>
                     <h1 className='text-lg font-bold text-gray-600'>{title}</h1>
-                    <button className='btn rounded-4xl bg-[#B9F8CF] text-[#0B5E06] '><img className='w-5 h-5' src="https://img.icons8.com/?size=100&id=8cZkMxbOqVFU&format=png&color=40C057" alt="" />{status}</button>
+                    <button className='btn rounded-4xl bg-[#B9F8CF] text-[#0B5E06]'><img className='w-5 h-5' src="https://img.icons8.com/?size=100&id=8cZkMxbOqVFU&format=png&color=40C057" alt="" />{status}</button>
                 </div>
                 <div>
                     <p className='text-gray-500'>{description}</p>

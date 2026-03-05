@@ -48,7 +48,7 @@
       "phone": "01710000004"
     },
     "priority": "Low",
-    "status": "Resolved",
+    "status": "In Progress",
     "createdAt": "2026-03-01"
   },
   {
@@ -100,7 +100,7 @@
       "phone": "01710000008"
     },
     "priority": "Low",
-    "status": "Closed",
+    "status": "In Progress",
     "createdAt": "2026-03-01"
   },
   {
@@ -152,7 +152,7 @@
       "phone": "01710000012"
     },
     "priority": "Medium",
-    "status": "Resolved",
+    "status": "In Progress",
     "createdAt": "2026-03-02"
   },
   {

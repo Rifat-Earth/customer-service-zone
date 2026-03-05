@@ -1,19 +1,12 @@
-import React, { use, useState } from 'react';
+import React, { use } from 'react';
 import SingleCard from '../SingleCard/SingleCard';
 import TaskStatus from '../../TaskStatus/TaskStatus';
-import { ToastContainer } from 'react-toastify';
-import { toast } from 'react-toastify';
 
-const AllCard = ({ customerPromise }) => {
+
+const AllCard = ({ customerPromise,handleCustomer,status }) => {
 
     const customerData = use(customerPromise)
-    const [status , setStatus] = useState([]);
-
-    const handleCustomer = (customerStatus) => {
-            toast("Task is added")
-         setStatus([...status ,customerStatus]) 
-         
-    }
+   
 
 
     return (
@@ -27,7 +20,7 @@ const AllCard = ({ customerPromise }) => {
                 </div>
             </div>
             <TaskStatus status={status} key={status.id}></TaskStatus>
-             <ToastContainer></ToastContainer>
+            
         </div>
     );
 };
