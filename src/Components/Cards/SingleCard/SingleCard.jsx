@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SingleCard = ({ customer }) => {
+const SingleCard = ({ customer, handleCustomer}) => {
     const { id, title, description, customerDetails,priority ,status ,createdAt} = customer
     return (
-        <div className="card w-full bg-base-100 card-md shadow-lg">
+        <div onClick={()=>handleCustomer(customer)} className="card w-full bg-base-100 card-md shadow-lg">
             <div className="card-body">
                 <div className='flex justify-between'>
                     <h1 className='text-lg font-bold text-gray-600'>{title}</h1>
