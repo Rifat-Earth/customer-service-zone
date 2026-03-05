@@ -6,47 +6,27 @@ const Banner = ({ status, resolved }) => {
 
 
     return (
-        <div className='flex-col mr-8 md:mr-0 md:flex md:flex-row gap-10 '>
+       
+        <div className="flex flex-col md:flex-row justify-between  gap-5 m-4">
+            <div
+                className="relative bg-gradient-to-r from-purple-600 to-purple-500 rounded-xl p-16 text-center text-white overflow-hidden flex-1">
 
-            <div className=' justify-between text-center py-20 rounded-lg mt-12 m-4 p-4 w-full h-64 bg-linear-to-bl from-[#632EE3] to-[#9F62F2] '
-            >
-                <div className='flex justify-center'>
+                <img src={vector1} className="absolute left-0 top-0 h-full opacity-80"/>
+                <img src={vector1} className="absolute right-0 top-0 h-full opacity-80  transform scale-x-[-1]"/>
 
-                    <div>
-                        <img className="border-" src={vector1} alt="" />
-                    </div>
-
-                    <div className='w-1/3'>
-                        <h1 className="text-3xl text-white">In Progress</h1>
-                        <h1 className='text-3xl mt-2 text-white'>{status.length}</h1>
-                    </div>
-
-                    <div>
-                        <img className="transform scale-x-[-1]" src={vector1} alt="" />
-                    </div>
-
-                </div>
-
+                <h2 className="text-2xl mb-4">In-Progress</h2>
+                <p className="text-6xl font-bold">{status.length}</p>
 
             </div>
-            <div
-                className=" text-center py-20 w-full rounded-lg mt-12 m-4 p-4 h-64 bg-linear-to-bl from-[#00827A] to-[#54CF68]">
-                 <div className='flex justify-center'>
+                <div
+                className="relative bg-gradient-to-r from-purple-600 to-purple-500 rounded-xl p-16 text-center text-white overflow-hidden flex-1">
 
-                    <div>
-                        <img className="border-" src={vector1} alt="" />
-                    </div>
+                <img src={vector1} className="absolute left-0 top-0 h-full opacity-80"/>
+                <img src={vector1} className="absolute right-0 top-0 h-full opacity-80  transform scale-x-[-1]"/>
 
-                    <div className='w-1/3'>
-                        <h1 className="text-3xl text-white">Resolved</h1>
-                        <h1 className='text-3xl mt-2 text-white'>{resolved.length}</h1>
-                    </div>
+                <h2 className="text-2xl mb-4">Resolved</h2>
+                <p className="text-6xl font-bold">{resolved.length}</p>
 
-                    <div>
-                        <img className="transform scale-x-[-1]" src={vector1} alt="" />
-                    </div>
-
-                </div>
             </div>
         </div>
     );
